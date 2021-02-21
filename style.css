@@ -14,7 +14,7 @@ body{
   background: whitesmoke;
 }
 
-h1{
+h1 {
   margin-top: 25px;
   margin-bottom: 15px;
   font-family: 'Merriweather', serif;
@@ -22,9 +22,15 @@ h1{
   font-weight: bold;
   text-align: center;
   letter-spacing: 2px;
+  text-transform: uppercase;
 }
 
-.loader{
+h4 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(28, 113, 116);
+}
+
+.loader {
   position: fixed;
   top: 0;
   bottom: 0;
@@ -47,6 +53,7 @@ h1{
 .image-container img{
   width: 100%;
   margin-top: 5px;
+  border-radius: 8px;
 }
 
 @media screen and (max-width: 600px){
@@ -56,4 +63,11 @@ h1{
 
 .image-container{
 margin: 10px;
+}
+
+}
+
+img:hover{
+  transform: scale(1.1);
+  box-shadow: 0rem 1rem 1rem rgba(0, 0, 0, 0.4);
 }
